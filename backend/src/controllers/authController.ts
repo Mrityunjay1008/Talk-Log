@@ -16,7 +16,7 @@ export async function getMe(req:AuthRequest,res:Response,next:NextFunction) {
 
     } catch (error) {
         res.status(500)
-        next()
+        next(error)
     }   
 }
 
@@ -46,6 +46,6 @@ export async function authCallBack(req:Request,res:Response,next:NextFunction) {
 
     } catch (error) {
         res.status(500)
-        next()
+        next(error)
     }
 }
