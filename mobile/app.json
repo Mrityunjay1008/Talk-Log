@@ -34,7 +34,13 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "@sentry/react-native",
+      "expo-font",
+      "expo-image",
+      "expo-secure-store",
+      "expo-status-bar",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
